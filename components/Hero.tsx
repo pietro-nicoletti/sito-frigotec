@@ -7,7 +7,7 @@ export const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="assets/images/Hero.png" 
+          src="/assets/images/Hero.png" 
           alt="Industrial Machinery" 
           className="w-full h-full object-cover opacity-40"
         />

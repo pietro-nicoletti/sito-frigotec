@@ -1,5 +1,5 @@
 import React from 'react';
-import footerLogo from '../assets/logo/frigotec logo_white.png';
+const footerLogo = '/assets/logo/frigotec logo_white.png';
 import { Phone, MapPin, Mail } from 'lucide-react';
 
 export const Footer: React.FC = () => {

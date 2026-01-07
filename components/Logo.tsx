@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImage from '../assets/logo/frigotec logo.png';
+const logoImage = '/assets/logo/frigotec logo.png';
 
 interface LogoProps {
   variant?: 'light' | 'dark';

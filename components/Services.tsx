@@ -1,16 +1,16 @@
 import React from 'react';
 import { Brand } from '../types';
 import { Settings, Server, Cpu, Snowflake } from 'lucide-react';
-import primapowerLogo from '../assets/brands/primapower.png';
-import bmlgroupLogo from '../assets/brands/BLM_group.png';
-import schneebergerLogo from '../assets/brands/schneeberger.png';
-import bystronicLogo from '../assets/brands/bystronicLogo.png';
-import rittalLogo from '../assets/brands/rittal.png';
-import cosmotecLogo from '../assets/brands/cosmotec.png';
-import stulzLogo from '../assets/brands/stulz.png';
-import hyfraLogo from '../assets/brands/hyfra.png';
-import efcoolingLogo from '../assets/brands/efcooling.png';
-import riedelLogo from '../assets/brands/riedel.png';
+const primapowerLogo = '/assets/brands/primapower.png';
+const bmlgroupLogo = '/assets/brands/BLM_group.png';
+const schneebergerLogo = '/assets/brands/schneeberger.png';
+const bystronicLogo = '/assets/brands/bystronicLogo.png';
+const rittalLogo = '/assets/brands/rittal.png';
+const cosmotecLogo = '/assets/brands/cosmotec.png';
+const stulzLogo = '/assets/brands/stulz.png';
+const hyfraLogo = '/assets/brands/hyfra.png';
+const efcoolingLogo = '/assets/brands/efcooling.png';
+const riedelLogo = '/assets/brands/riedel.png';
 
 
 const supportedMachines: Brand[] = [
@@ -40,7 +40,7 @@ export const Services: React.FC = () => {
       <div
         className="absolute inset-0 opacity-40"
         style={{
-          backgroundImage:'assets/images/Servizi.png',
+          backgroundImage: 'url(/assets/images/Servizi.png)',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           backgroundSize: 'cover',
