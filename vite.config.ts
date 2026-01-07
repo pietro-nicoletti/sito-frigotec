@@ -10,7 +10,10 @@ export default defineConfig(({ mode }) => {
   // uso process.cwd() così prende la root del progetto
   const env = loadEnv(mode, process.cwd(), '');
 
+  const base = mode === 'production' ? '/sito-frigotec/' : '/';
+
   return {
+    base,
     server: {
       port: 3000,
       host: '0.0.0.0',
