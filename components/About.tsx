@@ -36,7 +36,7 @@ export const About: React.FC = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-gray-900">Macchinari Industriali</h4>
-                  <p className="mt-1 text-gray-500">Profonda conoscenza di sistemi Primapower, Adige, Bystronics e altri.</p>
+                  <p className="mt-1 text-gray-500">Profonda conoscenza di sistemi Primapower, Adige, Bystronic e tanti altri.</p>
                 </div>
               </div>
             </div>
