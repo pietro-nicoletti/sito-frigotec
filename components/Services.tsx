@@ -11,6 +11,8 @@ const stulzLogo = '/assets/brands/stulz.png';
 const hyfraLogo = '/assets/brands/hyfra.png';
 const efcoolingLogo = '/assets/brands/efcooling.png';
 const riedelLogo = '/assets/brands/riedel.png';
+const knollLogo = '/assets/brands/knoll.png';
+const daikinLogo = '/assets/brands/Daikin.png';
 
 
 const supportedMachines: Brand[] = [
@@ -27,6 +29,8 @@ const supportedBrands: Brand[] = [
   { name: 'Hyfra', website: 'hyfra.com', logo: hyfraLogo },
   { name: 'Efcooling', website: 'efcooling.com', logo: efcoolingLogo },
   { name: 'Riedel Kooling', website: 'riedel-kooling.com', logo: riedelLogo },
+  { name: 'Knoll', website: 'knoll-mb.de', logo: knollLogo },
+  { name: 'Daikin', website: 'daikin.it', logo: daikinLogo },
 ];
 
 export const Services: React.FC = () => {
@@ -66,7 +70,7 @@ export const Services: React.FC = () => {
               <div className="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-frigo-main transition-colors">
                 <Snowflake className="text-frigo-main group-hover:text-white w-8 h-8" />
               </div>
-              <h4 className="text-xl font-bold text-gray-900">Assistenza Impianti</h4>
+              <h4 className="text-xl font-bold text-gray-900">Assistenza</h4>
             </div>
             <p className="text-gray-600">
               Riparazione e manutenzione di chiller e sistemi di raffreddamento per acqua e olio.
@@ -78,10 +82,10 @@ export const Services: React.FC = () => {
               <div className="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-frigo-main transition-colors">
                 <Settings className="text-frigo-main group-hover:text-white w-8 h-8" />
               </div>
-              <h4 className="text-xl font-bold text-gray-900">Macchine Utensili</h4>
+              <h4 className="text-xl font-bold text-gray-900">Vendita</h4>
             </div>
             <p className="text-gray-600">
-              Specializzazione su sistemi integrati in macchine a controllo numerico e laser.
+              Fornitura di condizionatori e refrigeratori nuovi con supporto tecnico dalla scelta all'installazione.
             </p>
           </div>
 
@@ -152,7 +156,7 @@ export const Services: React.FC = () => {
                 Siamo specializzati nella riparazione e manutenzione dei seguenti brand di refrigerazione:
               </p>
             </div>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {supportedBrands.map((b) => (
                 <li key={b.name}>
                   <a

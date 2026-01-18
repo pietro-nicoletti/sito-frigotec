@@ -13,7 +13,7 @@ export const Contact: React.FC = () => {
           
           <div>
             <h2 className="text-frigo-main font-semibold tracking-wider uppercase text-base md:text-lg mb-2">Contatti</h2>
-            <h3 className="text-3xl md:text-4xl font-bold mb-2">FrigoTec Sas</h3>
+            <h3 className="text-3xl md:text-4xl font-bold mb-2">FrigoTec</h3>
             <p className="text-xl text-gray-300 mb-6">Impianti Frigoriferi Industriali</p>
             
             <p className="text-gray-400 mb-10 text-lg leading-relaxed border-l-2 border-frigo-main pl-4">
@@ -23,18 +23,6 @@ export const Contact: React.FC = () => {
             </p>
 
             <div className="space-y-6">
-              
-              <div className="flex items-center gap-4 group">
-                <div className="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center group-hover:bg-frigo-main transition-colors flex-shrink-0">
-                  <User className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <p className="text-sm text-gray-400">Responsabile Tecnico</p>
-                  <span className="text-lg font-medium text-white">
-                    Donaera Andrea
-                  </span>
-                </div>
-              </div>
 
               <div className="flex items-center gap-4 group">
                 <div className="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center group-hover:bg-frigo-main transition-colors flex-shrink-0">

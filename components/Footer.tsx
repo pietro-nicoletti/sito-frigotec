@@ -66,7 +66,7 @@ export const Footer: React.FC = () => {
            <div>
             <h3 className="text-white font-semibold uppercase tracking-wider text-sm mb-6">Info Aziendali</h3>
             <ul className="space-y-3 text-sm text-gray-500">
-              <li>FrigoTec Sas</li>
+              <li>FrigoTec di Donaera Andrea C. Sas</li>
               <li>P.IVA: 02099520203</li>
               <li>Responsabile: Donaera Andrea</li>
             </ul>
