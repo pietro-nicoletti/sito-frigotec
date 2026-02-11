@@ -6,6 +6,7 @@ import { Services } from './components/Services';
 import { Gallery } from './components/Gallery';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { CookieBanner } from './components/CookieBanner';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <CookieBanner />
     </div>
   );
 }

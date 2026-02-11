@@ -76,6 +76,15 @@ export const Footer: React.FC = () => {
         
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-600">
           <p>&copy; {currentYear} FrigoTec Sas. Tutti i diritti riservati.</p>
+          <div className="flex items-center gap-4">
+            <a href="/privacy-policy.html" className="hover:text-frigo-main transition-colors">
+              Privacy Policy
+            </a>
+            <span className="text-gray-700">|</span>
+            <a href="/cookie-policy.html" className="hover:text-frigo-main transition-colors">
+              Cookie Policy
+            </a>
+          </div>
           <p>Advanced Air Conditioning Systems</p>
         </div>
       </div>
