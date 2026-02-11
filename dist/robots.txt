@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://frigotec.it/sitemap.xml
